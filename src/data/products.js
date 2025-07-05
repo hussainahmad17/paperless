@@ -46,7 +46,7 @@ const products = [
     price: 300,
     category: 'medical',
     description: 'Digital thermometer',
-    image: '/images/thermometer.jpeg',
+    image: '/images/Thermometer.jpeg',
   },
   {
     id: 'm2',
@@ -54,7 +54,7 @@ const products = [
     price: 360,
     category: 'medical',
     description: 'Automatic BP monitor',
-    image: '/images/blood.jpg',
+    image: '/images/Blood.jpg',
   },
   {
     id: 'm3',
@@ -78,7 +78,7 @@ const products = [
     price: 410,
     category: 'medical',
     description: 'Basic emergency kit',
-    image: '/images/kit.jpg',
+    image: '/images/Kit.jpg',
   },
 
   {
@@ -103,7 +103,7 @@ const products = [
     price: 350,
     category: 'mobile',
     description: 'Fast charger',
-    image: '/images/charger.jpeg',
+    image: '/images/Charger.jpeg',
   },
   {
     id: 'mo4',
@@ -119,7 +119,7 @@ const products = [
     price: 400,
     category: 'mobile',
     description: '10000mAh battery',
-    image: '/images/power.jpeg',
+    image: '/images/Power.jpeg',
   },
 
   {
