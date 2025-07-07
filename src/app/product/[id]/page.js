@@ -23,7 +23,7 @@ export default function ProductDetailPage({ params }) {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div>
           <img
-            src={product.image || "/placeholder.svg"}
+            src={product.image}
             alt={product.name}
             className="w-full h-96 object-cover rounded-xl shadow-lg"
           />
@@ -53,7 +53,7 @@ export default function ProductDetailPage({ params }) {
               isAdded ? "bg-green-500 hover:bg-green-600" : "bg-blue-500 hover:bg-blue-600"
             }`}
           >
-            {isAdded ? "✓ Added to Cart!" : "Add to Cart"}
+            {isAdded ? "Added to Cart!" : "Add to Cart"}
           </button>
         </div>
       </div>
